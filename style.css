@@ -9,7 +9,7 @@
 body{
     background-image: url("resources/Background_image.svg");
     background-color: #121826;
-    margin: 2rem;
+    padding: 3rem 0;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -24,11 +24,11 @@ body{
     width: 25%;
 }
 
-.top-para{
+.top p{
     color: #9DA3AE;
     margin-top: 1rem;
+    font-size: 0.875rem;
 }
-
 
 .container{
     display: flex;
@@ -42,7 +42,6 @@ body{
     border-radius: 12px;
     max-width: 320px;
     padding: 1rem;
-    
 }
 
 span{
@@ -55,26 +54,25 @@ span{
     border-radius: 50%;
 }
 
-.sign-i{
+.touchpoint{
     background-color: #FCEED8;
 }
 
-.sign-ii{
+.goal{
     background-color: #DEE9FC;
 }
 
-.sign-iii{
+.feedback{
     background-color: #FBE5E6;
 }
 
-h2{
+.content h2{
     font-size: 1.25rem;
     font-weight: 600;
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
-.para{
-    margin-top: 1rem;
+.content p{
     margin-bottom: 1rem;
     color: #D2D5DA;
     font-size: 1rem;
@@ -89,11 +87,10 @@ img{
 }
 
 
-@media (max-width: 412px){
+@media (max-width: 375px){
     body{
         display: flex;
         flex-direction: column;
-        max-width: 412px;
     }
 
     .top{
